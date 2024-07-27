@@ -1,0 +1,72 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar-logo {
+    width: 120px;
+    height: auto;
+    
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    margin-right: 10px;
+}
+
+.nav-button{
+    /* font-size:40 px; */
+    font-family: "sans-serif";
+    font-weight: bold;
+  
+     color: white !important;
+    font-size: 1.5em;
+    /* Increased font size */
+    margin: 0 15px;
+    /* Increased spacing between buttons */
+    padding: 10px 30px;
+    /* Added padding for button-like appearance */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+    position: relative;
+    /* width: 100px; */
+    text-align: center;
+    justify-content: center;
+}
+
+   
+
+.nav-button::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 6px;
+    background: rgb(108, 182, 241);
+    transition: width 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.nav-button:hover::after {
+    width: 100%;
+}
+
+.nav-button:hover {
+    color: #ddd !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Add a background color on hover */
+}

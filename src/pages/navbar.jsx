@@ -6,7 +6,7 @@ import menuicon from "../images/1.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/home">
+      <Link className="navbar-brand" to="/">
         <img
           src={samsungLogo}
           alt="Samsung Logo"

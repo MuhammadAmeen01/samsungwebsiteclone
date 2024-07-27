@@ -69,12 +69,22 @@ function BottomNavbar() {
             </a>
           </div>
           <div className="d-flex align-items-center">
-            <a href="#" className="me-3 text-decoration-none">
+            <button
+              className="me-3 text-decoration-none btn btn-link"
+              onClick={() => {
+                /* Handle action here */
+              }}
+            >
               More
-            </a>
-            <a href="#" className="me-3 text-decoration-none">
+            </button>
+            <button
+              className="me-3 text-decoration-none btn btn-link"
+              onClick={() => {
+                /* Handle action here */
+              }}
+            >
               Back to Top
-            </a>
+            </button>
           </div>
         </div>
       </div>

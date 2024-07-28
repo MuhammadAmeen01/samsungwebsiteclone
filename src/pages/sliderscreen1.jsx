@@ -8,13 +8,13 @@ const NewScreen = () => {
   const navigate = useNavigate();
 
   const handleClose = () => {
-    navigate("/home"); // Navigate to the home screen or any other screen
+    navigate("/"); // Navigate to the home screen or any other screen
   };
 
   return (
     <div className="fullscreen-overlay">
       <Slidernavbar></Slidernavbar>
-      <button className="close-button" onClick={handleClose}>
+      <button className="close-button" onClick={handleClose} style={{color:"white"}}>
         ×
       </button>
       <div className="content-container">

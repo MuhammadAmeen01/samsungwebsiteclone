@@ -15,7 +15,7 @@ const Navbar = () => {
       className="navbar navbar-expand-lg navbar-dark bg-black"
       style={{ height: "100px" }}
     >
-      <Link className="navbar-brand" style={{ width: "150px" }} to="/home">
+      <Link className="navbar-brand" style={{ width: "150px" }} to="/">
         <img src={samsungLogo} alt="Samsung Logo" className="navbar-logo" />
       </Link>
 
